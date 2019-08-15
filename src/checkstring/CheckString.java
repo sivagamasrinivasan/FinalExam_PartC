@@ -5,8 +5,8 @@
  */
 package checkstring;
 
-/**
- *
+/** This class to checks the given string has only characters or not.
+ * Complete this method and test this method in JUnit.
  * @author srinivsi
  */
 public class CheckString {
@@ -16,29 +16,16 @@ public class CheckString {
      */
     public static void main(String[] args) {
   
-    String c="asg";
-        if(checknoofchar(c))
+    String c="as23g";
+    if(checkchar(c))
     {
-        System.out.println("not string");
+        System.out.println("Given String has digits");
     }
     else
     {
-    System.out.println("string only");
+    System.out.println("Given String has only characters no digits");
     }
     }     
 
-  public static boolean checknoofchar(String s)
-    {
-        
-        for(int i=0;i<s.length();i++)
-        {
-        if (!Character.isLetter(s.charAt(i)))
-        {
-        return true;
-        } 
-        
-        }
-    return false;
-       
-    }
+  //create method here to check the given String has only characters or not
 }
