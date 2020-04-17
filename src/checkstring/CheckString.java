@@ -27,5 +27,5 @@ public class CheckString {
     }
     }     
 
-  //create method here to check the given String has only characters or not
+  //create method here to check the given String has numbers or not
 }
