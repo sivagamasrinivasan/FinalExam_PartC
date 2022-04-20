@@ -7,7 +7,7 @@ package checkstring;
 
 /** This class to checks the given string has any numbers/digits or not.
  * Complete this method and test this method in JUnit.
- * @author srinivsi
+ * @author srinivsi April 20
   */
 public class CheckString {
 
